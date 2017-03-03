@@ -1,0 +1,94 @@
+﻿What happens when you initialize a repository?
+
+	Initializing a repository causes Git to build a change tracking mechanism to work with a set of files. 
+
+
+
+Why do you need to do it?
+
+	Git establishes an environment that controls the versions of a set of files.  This enables changes to a set of files to be efficiently monitored and controlled
+
+
+
+
+
+How is the staging area different from the working directory and the repository?
+
+	it is a holding area for changes organized by a commit; it allows control over which changes in directory get copied to the repository.
+
+
+
+What value do you think it offers?
+
+
+	it allows changes to be accumulated before they're placed in the repository
+
+
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+
+        the staging area allows for comparisons between 1) the working directory and the staging area, and 2) the staging area and the repository.
+        this enables review of changes before making a commit to the repository.
+
+
+
+
+
+
+What are some situations when branches would be helpful in keeping your history
+ organized?
+
+	building new features 
+
+
+
+How would branches help?
+
+	 branches allow preservation of original code while building enhanced code
+
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+
+	diagrams help depict the various development paths in a way that simple text detail does not.  they help clarify diverging development efforts, for example
+
+
+
+
+
+What is the result of merging two branches together? 
+
+
+	The code from separate branches are consolidated into a single branch.
+
+
+
+Why do we represent it in
+ the diagram the way we do?
+
+	I suspect I'm not grasping what's being asked for here; the diagram shows two branches being consolidated, including the history of previous commits.
+
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+
+Manual merging:
+
+Pro - allows thorough review of different file version; not at the mercy of an algorithm that's not smart enough
+
+Con - Introduces human error potential; time consuming
+
+
+Automatic merging:
+
+Pro - speed; algorithm can handle numerous comparison scenarios consistently
+
+Con - cannot handle all comparison scenarios

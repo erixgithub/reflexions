@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Tough to answer this question, as it has what feels like a glaringly obvious answer.  
+	The diff function highlighted the bug that had been introduced in the code.
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    As code is changed, the history enables access to intended and unintended changes that were introduced.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    	Manual changes:
+
+	Pro -  if done wisely, are compatible with aligning new versions of a program to logical changes.
+	
+	Con - if not done wisely, are not compatible with saving a set of logical changes.  Also, manual changes may not happen in enough time to save changes that'd be lost due to hardware or software issues.
+
+	
+	Automatic changes:
+
+	Pro - reliable mechanism for preserving changes.
+
+	Con - mechanism is oblivious to preserving entire set of logical statements at one time.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google Docs isn't designed to deal with dependencies among multiple documents.  
+    Version control systems for software releases must handle multiple file 'bundles' to be effective.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+   'git log' provides a more summary level representation of changes made to a set of files and show change counts, if desired.
+
+   'git diff' provides a detailed picture of what changes have occured when comparing two sets of committed files.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Assuming you commit intelligently, version control enables error detection and recovery much more efficient by isolating changes that you've introduced.
+    (The video on the heels of my above answer opened my eyes to not just being able to resolving errors better (i.e. defensive developing) but being able to experiment more freely)
+
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    i expect that as i use Python for exercises and projects in the Data Analysis course, Git will be useful in efficiently refining and expanding the software i build.
