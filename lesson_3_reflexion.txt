@@ -28,7 +28,12 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+It's possible that some analysis would be needed to determine what collaboration environment would be up to the task.
+It's also possible the the project would not require the sophistication that Git offers.  
+
+    Easier:  not having to master large set of features in the Git environment.
+
+    Harder:  finding out the hard way that an adhoc/informal collaboration environment was an ineffective solution.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
