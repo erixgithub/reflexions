@@ -38,4 +38,9 @@ It's also possible the the project would not require the sophistication that Git
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Placing changes in branches other than master would be important in environments where activity is taking place
+outside the main branch; examples would be testing and introducing new features.  Also, multiple branches is compatible
+with environments having more than one author.
+
+Having a single branch would might be sufficient for a low-activity single author environment.  
+Its advantage consists of little need for and understanding of the myriad features in the Git tool.
